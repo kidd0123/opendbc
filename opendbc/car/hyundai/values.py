@@ -335,8 +335,8 @@ class CAR(Platforms):
     flags=HyundaiFlags.MANDO_RADAR | HyundaiFlags.CHECKSUM_CRC8,
   )
   HYUNDAI_VELOSTER = HyundaiPlatformConfig(
-    [HyundaiCarDocs("Hyundai Veloster 2019-20", min_enable_speed=5. * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_e]))],
-    CarSpecs(mass=2917 * CV.LB_TO_KG, wheelbase=2.8, steerRatio=13.75 * 1.15, tireStiffnessFactor=0.5),
+    [HyundaiCarDocs("Hyundai Veloster Turbo 2020", min_enable_speed=5. * CV.MPH_TO_MS, car_parts=CarParts.common([CarHarness.hyundai_e]))],
+    CarSpecs(mass=1836 * CV.LB_TO_KG, wheelbase=2.8, steerRatio=13.00, tireStiffnessFactor=1.0),
     flags=HyundaiFlags.LEGACY | HyundaiFlags.TCU_GEARS,
   )
   HYUNDAI_SONATA_HYBRID = HyundaiPlatformConfig(

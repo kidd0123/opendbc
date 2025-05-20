@@ -454,17 +454,34 @@ FW_VERSIONS = {
     ],
   },
   CAR.HYUNDAI_VELOSTER: {
-    (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00JS__ SCC H-CUP      1.00 1.02 95650-J3200         ',
-      b'\xf1\x00JS__ SCC HNCUP      1.00 1.02 95650-J3100         ',
+    (Ecu.abs, 0x7d1, None): [
+        b'\xf1\x00\x00\x00\x00\x00\x00\x00',
+        b'\xf1\x8b \x18\x10\''
     ],
-    (Ecu.eps, 0x7d4, None): [
-      b'\xf1\x00JSL MDPS C 1.00 1.03 56340-J3000 8308',
+    (Ecu.combinationMeter, 0x7c6, None): [
+        b'\xf1\x00753',
+        b'\xf1\x8b \x19\x05('
     ],
-    (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00JS  LKAS AT KOR LHD 1.00 1.03 95740-J3000 K33',
-      b'\xf1\x00JS  LKAS AT USA LHD 1.00 1.02 95740-J3000 K32',
+      (Ecu.engine, 0x7e0, None): [
+        b'0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+        b'\x01TJS-0NU06F000H0A',
+        b'HEPG4F13',
     ],
+      (Ecu.eps, 0x7d4, None): [
+        b'\xf1\x00JSL MDPS C 1.00 1.03 56340-J3000 8308',
+      ],
+      (Ecu.fwdCamera, 0x7c4, None): [
+        b'\xf1\x8b \x19\x01\x04',
+        b'\xf1\x00JS  LKAS AT USA LHD 1.00 1.03 95740-J3000 K33',
+      ],
+      (Ecu.hvac, 0x7b3, None): [
+        b'\xf1\x00JS    97250-J326XCONTROL ASSY-FATC   V1-03-704-01',
+      ],
+      (Ecu.transmission, 0x7e1, None): [
+        b'\xf1\x006U2V0_C2\x00\x006U2V8051\x00\x00DJS0T16NS1\xba\x02\xb8\x80',
+        b'\xf1\x896U2V8051\x00\x00\xf1\x82DJS0T16NS1',
+        b'DJS0T16NS1',
+      ],
   },
   CAR.GENESIS_G70: {
     (Ecu.fwdRadar, 0x7d0, None): [
