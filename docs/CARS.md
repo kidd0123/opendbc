@@ -146,7 +146,7 @@
 |Hyundai|Tucson Diesel 2019|Smart Cruise Control (SCC)|[Upstream](#upstream)|
 |Hyundai|Tucson Hybrid 2022-24|All|[Upstream](#upstream)|
 |Hyundai|Tucson Plug-in Hybrid 2024|All|[Upstream](#upstream)|
-|Hyundai|Veloster 2019-20|Smart Cruise Control (SCC)|[Upstream](#upstream)|
+|Hyundai|Veloster Turbo 2020|Smart Cruise Control (SCC)|[Upstream](#upstream)|
 |Jeep|Grand Cherokee 2016-18|Adaptive Cruise Control (ACC)|[Upstream](#upstream)|
 |Jeep|Grand Cherokee 2019-21|Adaptive Cruise Control (ACC)|[Upstream](#upstream)|
 |Kia|Carnival 2022-24|Smart Cruise Control (SCC)|[Upstream](#upstream)|
